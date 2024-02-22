@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM - Exercises</title>
+    <style>
+      
+    </style>
+  </head>
+
+<body>
+
+  <button>9a</button>
+
+  <button class="second-button" onclick ="
+    changeButton();
+  ">9b</button>
+
+  <br><br><br>
+
+  <button onclick="
+  buttonPress('Heads');
+  ">Heads</button>
+
+  <button onclick="
+  buttonPress('Tails');
+  ">Tails</button>
+
+  <p class="result"></p>
+
+  <br><br>
+
+  <input placeholder="Name" class="name" onkeydown="
+    handleSubmitKeydown(event);
+  ">
+  <button class="button" onclick="
+  getInputName();
+  ">Submit</button>
+
+  <p class="namePlace"></p>
+
+  <script>
+
+    console.log(document.querySelector('button'));
+
+    function changeButton() {
+    document.querySelector('.second-button').innerHTML = '9b done!';
+    }
+
+    function buttonPress(press) {
+      if (press === 'Heads') {
+        result = 'Heads';
+        document.querySelector('.result').innerHTML = `You chose ${result}`;
+      } else if (press === 'Tails') {
+        result = 'Tails'
+        document.querySelector('.result').innerHTML = `You chose ${result}`;
+      }
+    }
+
+    function getInputName() {
+      const getValue = document.querySelector('.name');
+      const name = getValue.value;
+
+      document.querySelector('.namePlace').innerHTML = `Your name is: ${name}`; 
+    }
+    
+    function handleSubmitKeydown(event) {
+      if(event.key === 'Enter') {
+        getInputName();
+      }
+    }
+
+  </script>
+
+</body>
+</html>
+
+
