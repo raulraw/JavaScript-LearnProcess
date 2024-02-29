@@ -1,0 +1,107 @@
+.amazon-button {
+  background-color: rgb(255,216,20);
+  padding: 8px 45px;
+  font-size: 15px;
+  font-family: Arial;
+  border:none;
+  color:black;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  margin-top:15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.uber-buttons1 {
+  background-color: black;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.uber-buttons2 {
+  background-color: rgb(230,230,230);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.gaming {
+  border: none;
+  background-color: rgb(230,230,230);
+  cursor: pointer;
+  font-family: Arial;
+  color:black;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.is-toggled {
+  background-color: black;
+  color:white;
+}
+
+.tech {
+  border: none;
+  background-color: rgb(230,230,230);
+  cursor: pointer;
+  font-family: Arial;
+  color:black;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.music {
+  border: none;
+  background-color: rgb(230,230,230);
+  cursor: pointer;
+  font-family: Arial;
+  color:black;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.box {
+  margin-top: 50px;
+  padding: 8px 12px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.calculate {
+  background-color: green;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px;
+  border:none;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.js-error {
+  color: black;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
