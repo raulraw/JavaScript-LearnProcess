@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Functions - Practice</title>
+    <style>
+      
+    </style>
+  </head>
+
+<body>
+
+  <script>
+   function greet(name = 'there') {
+    console.log(`Hello ${name}!`);
+   }
+
+   greet('Staicu Raul-Valentin');
+
+
+   function convertToFahrenheit(celsius) {
+    farenheit = (celsius * 9 / 5) + 32;
+    console.log(farenheit);
+   }
+
+   function convertToCelsius(farenheit) {
+    celsius = (farenheit - 32) * 5 / 9;
+    console.log(celsius);
+   }
+
+   function convertTemperature(degrees, unit) {
+    
+    let result = '';
+
+    if( unit === 'F') {
+      celsius = (degrees - 32) * 5 / 9;
+      result = `Outside are ${celsius} C`;
+    } else if( unit === 'C' ) {
+      farenheit = (degrees * 9 / 5) + 32;
+      result = `Outside are ${farenheit} F`;
+    }
+
+    console.log(result);
+
+   }
+
+   convertTemperature(100, `F`);
+
+   //convertToCelsius(86);
+
+   //convertToFahrenheit(25);
+
+
+
+
+  </script>
+
+</body>
+</html>
